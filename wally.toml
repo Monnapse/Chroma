@@ -1,0 +1,10 @@
+[package]
+name = "monnapse/chroma"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+roact = "roblox/roact@1.4.4"
+rodux = "roblox/rodux@4.0.0-rc.0"
+roactRodux = "roblox/roact-rodux@0.5.1"

@@ -1,0 +1,48 @@
+{
+  "name": "Roact-Rodux Test Place",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "RoactRodux": {
+        "$path": "src"
+      },
+
+      "Roact": {
+        "$path": "modules/roact/src"
+      },
+
+      "Rodux": {
+        "$path": "modules/rodux/src"
+      },
+
+      "TestEZ": {
+        "$path": "modules/testez/src"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+
+      "Run Tests": {
+        "$path": "test/runner.server.lua"
+      }
+    },
+
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    },
+
+    "Players": {
+      "$className": "Players",
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    }
+  }
+}
